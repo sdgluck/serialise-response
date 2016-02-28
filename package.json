@@ -1,0 +1,31 @@
+{
+  "name": "serialise-response",
+  "version": "0.0.1",
+  "description": "Serialise and deserialise HTML5 Responses",
+  "author": "Sam Gluck <sdgluck@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sdgluck/serialise-response.git"
+  },
+  "scripts": {
+    "lint": "standard src/**/*.js",
+    "build": "webpack --progress --colors",
+    "prepublish": "npm run lint && npm run build"
+  },
+  "bugs": {
+    "url": "https://github.com/sdgluck/serialise-response/issues"
+  },
+  "keywords": [
+    "serialise",
+    "deserialise",
+    "response"
+  ],
+  "devDependencies": {
+    "standard": "^6.0.5",
+    "webpack": "^1.12.14"
+  },
+  "standard": {
+    "parser": "babel-eslint"
+  }
+}
