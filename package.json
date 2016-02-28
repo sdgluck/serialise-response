@@ -19,6 +19,7 @@
   "keywords": [
     "serialise",
     "deserialise",
+    "html5",
     "response"
   ],
   "devDependencies": {
