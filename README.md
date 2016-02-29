@@ -22,6 +22,7 @@ __CommonJS Require__
 __Script__
 
     <script src="/node_modules/serialise-response/dist/serialise-response.min.js"></script>
+    typeof window.serialiseResponse === 'object'
 
 ## Usage
 
