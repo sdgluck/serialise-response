@@ -1,6 +1,6 @@
 {
   "name": "serialise-response",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Serialise and deserialise HTML5 Responses",
   "author": "Sam Gluck <sdgluck@gmail.com>",
   "license": "MIT",
