@@ -10,6 +10,8 @@ Made with ❤ at [@outlandish](http://www.twitter.com/outlandish)
 ## Install
 
     npm install serialise-response --save
+    
+## Import
 
 __ES6 Import (w/ Babel)__
 
@@ -18,10 +20,15 @@ __ES6 Import (w/ Babel)__
 __CommonJS Require__
 
     var serialiseResponse = require('serialise-response')
+    
+__AMD__
+
+    define(['serialiseResponse'], ...)
 
 __Script__
 
     <script src="/node_modules/serialise-response/dist/serialise-response.min.js"></script>
+    typeof window.serialiseResponse === 'object'
 
 ## Usage
 
