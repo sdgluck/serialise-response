@@ -68,12 +68,15 @@ function deserialiseResponse (response) {
   return new Response(dataURItoBlob(realResponse.__body))
 }
 
-serialiseResponse.deserialiseResponse = deserialiseResponse
-serialiseResponse.deserializeResponse = deserialiseResponse
+serialiseResponse.deserialise = deserialiseResponse
+serialiseResponse.deserialize = deserialiseResponse
 
 /* global define:false window:false */
 if (typeof define === 'function' && define.amd) {
   define('serialiseResponse', function () {
+    return serialiseResponse
+  })
+  define('serializeResponse', function () {
     return serialiseResponse
   })
 } else if (typeof module === 'object' && module.exports) {
