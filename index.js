@@ -33,7 +33,9 @@ function serialiseResponse (response) {
 
   return new Promise(function (resolve, reject) {
     var reader = new FileReader()
-    response.blob().then((blob) => reader.readAsDataURL(blob))
+    response.blob().then(function (blob) {
+      return reader.readAsDataURL(blob)
+    })
     reader.onerror = reject
     reader.onloadend = function () {
       resolve(JSON.stringify({
