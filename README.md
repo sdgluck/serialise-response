@@ -1,6 +1,6 @@
 # serialise-response
 
-> Serialise and de-serialise HTML5 Responses
+> Serialise and deserialise a Fetch Response
 
 Made with ❤ at [@outlandish](http://www.twitter.com/outlandish)
 
