@@ -15,7 +15,7 @@ Made with ❤ at [@outlandish](http://www.twitter.com/outlandish)
 
 `serialiseResponse(response[, toObject]) : String|Object`
 
-- __response__ {Response} responseto serialise
+- __response__ {Response} response to serialise
 - __toObject__ {Boolean} serialise response to an object (default is string)
 
 `serialiseResponse.deserialise(response) : Promise<Response>`
