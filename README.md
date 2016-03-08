@@ -11,6 +11,8 @@ Made with ❤ at [@outlandish](http://www.twitter.com/outlandish)
 
     npm install serialise-response --save
 
+Exported using UMD pattern, otherwise available on `window` as `serialiseResponse` and `serializeResponse`.
+
 ## Usage
 
 `serialiseResponse(response[, toObject]) : String|Object`
