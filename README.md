@@ -20,9 +20,9 @@ Made with ❤ at [@outlandish](http://www.twitter.com/outlandish)
 
 `serialiseResponse.deserialise(response) : Promise<Response>`
 
-- __response__ {String|Object} serialised response to deserialise
+- __response__ {String|Object} response to deserialise
 
-_Function names are also made available in American English: `serializeResponse` and `serializeResponse.deserialize`_
+_Function names are also made available in American English: `serializeResponse` and `serializeResponse.deserialize`._
 
 ## Example
 
