@@ -15,14 +15,22 @@ Exported using UMD pattern, otherwise available on `window` as `serialiseRespons
 
 ## Usage
 
-`serialiseResponse(response[, toObject]) : String|Object`
+### `serialiseResponse(response[, toObject]) : String|Object`
+
+Serialise a Response.
 
 - __response__ {Response} response to serialise
 - __toObject__ {Boolean} serialise response to an object (default is string)
 
-`serialiseResponse.deserialise(response) : Promise<Response>`
+<p>______</p>
+
+### `serialiseResponse.deserialise(response) : Promise<Response>`
+
+Deserialise a Response serialised using `serialise-response`.
 
 - __response__ {String|Object} response to deserialise
+
+<p>______</p>
 
 _Function names are also made available in American English: `serializeResponse` and `serializeResponse.deserialize`._
 
