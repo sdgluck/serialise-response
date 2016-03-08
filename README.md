@@ -32,7 +32,7 @@ _Function names are also made available in American English: `serializeResponse`
 
     // ...
 
-    const response = serialisedResponse.deserialise(serialisedResponse)
+    const response = serialiseResponse.deserialise(serialisedResponse)
 
     request.json().then((data) => {
       console.log(data) //=> { foo: bar }
