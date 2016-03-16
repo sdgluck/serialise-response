@@ -19,6 +19,8 @@ Exported using UMD pattern, otherwise available on `window` as `serialiseRespons
 
 Serialise a Response.
 
+Function also made available as `serializeResponse`.
+
 - __response__ {Response} response to serialise
 - __toObject__ {Boolean} serialise response to an object (default is string)
 
@@ -28,11 +30,9 @@ Serialise a Response.
 
 Deserialise a Response serialised using `serialise-response`.
 
+Function also made available as `serializeResponse.deserialize`.
+
 - __response__ {String|Object} response to deserialise
-
-<p>______</p>
-
-_Function names are also made available in American English: `serializeResponse` and `serializeResponse.deserialize`._
 
 ## Example
 
