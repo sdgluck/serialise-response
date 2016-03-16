@@ -38,7 +38,9 @@ Function also made available as `serializeResponse.deserialize`.
 
     import serialiseResponse from 'serialise-response'
 
-    const serialisedResponse = serialiseResponse({ foo: 'bar' }))
+    const serialisedResponse = serialiseResponse(
+      new Response({ foo: 'bar' }))
+    )
 
     // ...
 
