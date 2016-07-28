@@ -46,7 +46,7 @@ Function also made available as `serializeResponse.deserialize`.
 
     const response = serialiseResponse.deserialise(serialisedResponse)
 
-    request.json().then((data) => {
+    response.json().then((data) => {
       console.log(data) //=> { foo: bar }
     })
 
